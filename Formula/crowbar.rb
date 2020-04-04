@@ -13,6 +13,7 @@ class Crowbar < Formula
   end
 
   def install
+    mv 'crowbar-x86_64-macos', 'crowbar'
     bin.install 'crowbar'
   end
 
