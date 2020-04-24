@@ -4,12 +4,12 @@
 class Crowbar < Formula
   desc 'Your trusty tool for retrieving AWS credentials securely via SAML'
   homepage 'https://github.com/moritzheiber/crowbar'
-  version '0.3.4'
+  version '0.3.5'
   bottle :unneeded
 
   if OS.mac?
-    url 'https://github.com/moritzheiber/crowbar/releases/download/v0.3.4/crowbar-x86_64-macos'
-    sha256 '5ff2aee3451a3c0c2b637d95653298f01e6df866799e2fad903ce906ebf02f43'
+    url 'https://github.com/moritzheiber/crowbar/releases/download/v0.3.5/crowbar-x86_64-macos'
+    sha256 '3adc8684e3a3b4c49e0867a797321eb3f8c843d53bce2d35340cbb15b430e9a3'
   end
 
   def install
