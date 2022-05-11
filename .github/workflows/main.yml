@@ -15,7 +15,6 @@ jobs:
           HOMEBREW_GITHUB_API_TOKEN: "${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}"
         run: |
           set -e
-          brew update
           HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/moritzheiber/homebrew-tap"
           mkdir -p "$HOMEBREW_TAP_DIR"
           rm -rf "$HOMEBREW_TAP_DIR"
